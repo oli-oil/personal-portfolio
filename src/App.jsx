@@ -18,7 +18,7 @@ function App() {
           <span className="icon icon-bar" />
         </button>
         <a href="#" className="navbar-brand">
-          Ultra Profile
+          Personal Portfolio / OLI ♡ྀི ₊
         </a>
       </div>
       <nav className="collapse navbar-collapse" id="rock-navigation">
@@ -67,18 +67,16 @@ function App() {
           <h1 className="tm-home-title">
             <strong>Princess Olingay</strong>
           </h1>
-          <h2 className="tm-home-subtitle">Web Designer</h2>
-          <p>
-            I am a professional <strong>UX Designer</strong> and{" "}
+          <h2 className="tm-home-subtitle">Aspiring Web Designer</h2>
+          <p className="forCaviar">
+            I am an aspiring <strong> UI/UX Designer</strong> and{" "}
             <strong>Front-End Developer</strong> creating modern and responsive
             designs for <strong>Web</strong> and <strong>Mobile</strong>. Let us
-            work together. Thank you.
+            work together.  
           </p>
-          <a
-            href="#work"
-            className="btn btn-default smoothScroll tm-view-more-btn"
-          >
-            Let's Begin
+          <a href="#work"
+            className="btn btn-default smoothScroll tm-view-more-btn">
+            See More
           </a>
         </div>
         <div className="col-md-2 col-sm-1" />
@@ -98,34 +96,36 @@ function App() {
         <div className="col-md-4 col-sm-4">
           <div className="work-wrapper">
             <i className="fa fa-link" />
-            <h3 className="text-uppercase tm-work-h3">Mobile UX</h3>
+            <h3 className="text-uppercase tm-work-h3">Mobile UX Mock-up Design</h3>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet. Dolore magna.
-            </p>
+            <p className="examp">
+             Creating visually appealing and user-friendly mobile app interfaces. </p>
+
+            <a href = "https://www.figma.com/proto/qZ6CFMQ2lZoXBOj64McvZJ/iVote%3A-A-Prototype?node-id=195-610&node-type=canvas&t=ShViWCuT69hwA538-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" target = "_blank" className ="example">See Example</a>
+         
           </div>
         </div>
         <div className="col-md-4 col-sm-4">
           <div className="work-wrapper">
             <i className="fa fa-flash" />
-            <h3 className="text-uppercase tm-work-h3">Web Design</h3>
+            <h3 className="text-uppercase tm-work-h3">Web Design x Infographics</h3>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet. Dolore magna.
-            </p>
+            <p className="examp">
+            Leverage the power of infographics to create informative websites. </p>
+
+            <a href = "https://512f111d-89e8-4cad-bf34-726faa3b44dd-00-27bycmpgmtl7g.picard.replit.dev/" target="_blank" className ="example">See Example</a>
+            
           </div>
         </div>
         <div className="col-md-4 col-sm-4">
           <div className="work-wrapper">
             <i className="fa fa-dashboard" />
-            <h3 className="text-uppercase tm-work-h3">HTML Templates</h3>
+            <h3 className="text-uppercase tm-work-h3">HTML Templates and Other Portfolio</h3>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet. Dolore magna.
-            </p>
+            <p className="examp">
+            Customizable templates that serve as the foundation for various projects.</p>
+
+            <a href = " https://ba80bb86-b3b1-45b1-affc-d0d1dc044a47-00-fgfy8i33myzr.kirk.replit.dev/" target = "_blank" className ="example">See Example</a>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@ function App() {
               My <strong>Portfolio</strong>
             </h2>
           </div>
-          {/* START ISO SECTION */}
+          {/* START ISO SECTION
           <div className="iso-section">
             <ul className="filter-wrapper clearfix">
               <li>
@@ -170,7 +170,7 @@ function App() {
                   Mobile
                 </a>
               </li>
-            </ul>
+            </ul> */}
             <div className="iso-box-section">
               <div className="iso-box-wrapper col4-iso-box">
                 <div className="iso-box html photoshop wordpress mobile col-md-3 col-sm-3 col-xs-12">
@@ -181,10 +181,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Web Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                        Web Design Example Website
                       </p>
                     </div>
                   </div>
@@ -197,10 +196,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Web Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                      Web Design Example Website
                       </p>
                     </div>
                   </div>
@@ -213,10 +211,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Web Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                      Web Design Example Website
                       </p>
                     </div>
                   </div>
@@ -229,10 +226,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Web Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                        Web Design Example Website
                       </p>
                     </div>
                   </div>
@@ -245,10 +241,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Mobile Mock-up Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                        Mobile Mock-up Design using Figma
                       </p>
                     </div>
                   </div>
@@ -261,10 +256,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Mobile Application Interface Design </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                        I aspire to be able to create an interface design for Mobile Application
                       </p>
                     </div>
                   </div>
@@ -277,10 +271,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Mobile Mock-up Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                      Mobile Mock-up Design using Figma
                       </p>
                     </div>
                   </div>
@@ -293,10 +286,9 @@ function App() {
                       alt="portfolio img"
                     />
                     <div className="portfolio-overlay">
-                      <h3 className="portfolio-item-title">UX Design</h3>
+                      <h3 className="portfolio-item-title">Infographics Design</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonumm.
+                        Designing an Infographics 
                       </p>
                     </div>
                   </div>
@@ -306,7 +298,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    {/* </div> */}
   </section>
   {/* END PORTFOLIO */}
   {/* START RESUME */}
@@ -318,40 +310,41 @@ function App() {
             My <strong>Profile</strong>
           </h2>
           <p>
-            <span className="tm-info-label">Name</span> John White
+            <span className="tm-info-label">Name:</span> Princess Olingay
           </p>
           <p>
-            <span className="tm-info-label">Birthday</span> December 24, 1996
+            <span className="tm-info-label">Birthday:</span> August XD, 20XP
           </p>
           <p>
-            <span className="tm-info-label">Address</span> Melbourne Victoria
-            3000 Australia
+            <span className="tm-info-label">Address:</span> Angeles City
           </p>
           <p>
-            <span className="tm-info-label">Phone</span> +001 020 0340 | 009 080
-            0760
+            <span className="tm-info-label">Phone:</span> +639 6710 96215
           </p>
           <p>
-            <span className="tm-info-label">Email</span> hello@company.com
+            <span className="tm-info-label">Email:</span> princessolingay@gmail.com
           </p>
           <p>
-            <span className="tm-info-label">Website</span>{" "}
-            <a href="#" className="tm-red-text">
-              www.company.com
+            <span className="tm-info-label">Website:</span>{" "}
+            <a href="https://cute-brigadeiros-c44d15.netlify.app/" target="_blank" className="tm-red-text">
+              antecedence.port
             </a>
           </p>
         </div>
+        {/*https://512f111d-89e8-4cad-bf34-726faa3b44dd-00-27bycmpgmtl7g.picard.replit.dev/ */}
+        {/* https://ba80bb86-b3b1-45b1-affc-d0d1dc044a47-00-fgfy8i33myzr.kirk.replit.dev/ */}
+        {/* https://www.figma.com/proto/qZ6CFMQ2lZoXBOj64McvZJ/iVote%3A-A-Prototype?node-id=195-610&node-type=canvas&t=ShViWCuT69hwA538-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+         */}
         <div className="col-md-6 col-sm-6">
           <h2 className="title">
             <strong>Some</strong> Skills
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat
-            volutpat.
+          As a versatile web developer, I am proficient in HTML5, CSS3, SEO, JavaScript, 
+          responsive design, version control, problem-solving, and continuous learning. EME
           </p>
           <h4 className="tm-progress-label">
-            Bootstrap <small className="progress-percent-small">100%</small>
+            HTML5 <small className="progress-percent-small">100%</small>
           </h4>
           <div className="progress tm-progress">
             <div
@@ -364,7 +357,7 @@ function App() {
             />
           </div>
           <h4 className="tm-progress-label">
-            HTML5 <small className="progress-percent-small">90%</small>
+            CSS3 <small className="progress-percent-small">90%</small>
           </h4>
           <div className="progress tm-progress">
             <div
@@ -407,24 +400,18 @@ function App() {
               Creative <strong>Director</strong>
             </h1>
           </div>
-          <p>
-            This is free Bootstrap v3.3.4 mobile friendly layout from{" "}
-            <a rel="nofollow" href="https://templatemo.com">
-              templatemo
-            </a>
-            . Feel free to use it for your website. Credit goes to{" "}
-            <a rel="nofollow" href="https://pixabay.com">
-              Pixabay
-            </a>{" "}
-            for photos used in this template. Dolore magna aliquam erat
-            volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet.
+          <p className = "resumep">
+          Building robust and responsive web layouts.
+          Optimizing websites for search engines to drive organic traffic.
+          Creating interactive and dynamic web experiences.
+          Ensuring websites are accessible and usable across devices.
+          Using Git for efficient collaboration and project management.
+          Identifying and resolving technical challenges effectively.
+          Staying up-to-date with the latest web development trends and technologies.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat
-            volutpat.
-          </p>
+          <a href = "https://drive.google.com/file/d/1Va5rNh4xwc_LGIzlFBgwODMpPCirkiLA/view?usp=drive_link" target = "_blank" className = "resume example">
+            See Resume
+          </a>
         </div>
       </div>
     </div>
@@ -538,10 +525,8 @@ function App() {
         <div className="col-md-1 col-sm-1" />
         <div className="col-md-12 col-sm-12">
           <p>
-            Copyright © 2018 Ultra Profile . design:{" "}
-            <a rel="nofollow noopener" href="https://templatemo.com">
-              template mo
-            </a>
+            Copyright © 2018 Ultra Profile | Princess Olingay ఌ︎
+            
           </p>
         </div>
       </div>
